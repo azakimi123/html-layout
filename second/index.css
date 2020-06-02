@@ -1,0 +1,38 @@
+
+.border-box {
+    border: solid black;
+    width: 1850px;
+    height: 250px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.left-rectangle {
+    position: absolute;
+    top: 115px;
+    left: 50px;
+    width: 50px;
+    height: 150px;
+    background-color: purple;
+}
+
+.mid-rectangle {
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    width: 600px;
+    height: 225px;
+    background-color: rgb(32, 109, 13);  
+}
+
+.dot {
+    width: 225px;
+    height: 225px;
+    background-color: rgb(101, 217, 233); 
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
