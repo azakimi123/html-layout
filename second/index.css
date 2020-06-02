@@ -59,13 +59,23 @@
 }
 
 .greeting-card {
-    border: solid rgb(161, 161, 161) 1px;
+    border: solid rgb(224, 224, 224) 1px;
     width: 800px;
-    height: 400px;
-    float: top; 
+    height: 400px; 
     margin-left: 25px;
     margin-right: 25px;
     margin-top: 25px;  
     margin-bottom: 25px;
     box-shadow: 3px 5px 5px 0px rgba(211, 211, 211, 0.75);
+    position: absolute;
+    top: 825px;
+    left: 550px;
+}
+
+.text {
+    letter-spacing: 10px;
+    color: rgb(0, 0, 112);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 150px;
 }
