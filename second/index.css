@@ -1,5 +1,5 @@
 
-.border-box {
+.header-border {
     border: solid black;
     width: 1850px;
     height: 250px;
@@ -35,4 +35,37 @@
     position: absolute;
     left: 800px;
     top: 40px;
+}
+
+.body-border {
+    border: dotted black;
+    width: 1850px;
+    height: 500px;
+    float: top; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.body-rectangle {
+    background-color: rgb(245, 247, 179);
+    width: 1555px;
+    height: 390px; 
+    padding-left: 200px; 
+    position: absolute;
+    top: 370px;
+    left: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.greeting-card {
+    border: solid rgb(161, 161, 161) 1px;
+    width: 800px;
+    height: 400px;
+    float: top; 
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;  
+    margin-bottom: 25px;
+    box-shadow: 3px 5px 5px 0px rgba(211, 211, 211, 0.75);
 }
